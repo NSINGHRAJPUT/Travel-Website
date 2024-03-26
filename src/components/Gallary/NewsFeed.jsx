@@ -16,14 +16,7 @@ const NewsFeed = () => {
             </Fade>
         </div>
         <div className='social_media_gallery'>
-            <div className='gallary_news_middle'>
-                <img src={face} alt="" />
-                <iframe title='facebook' className='iframe' src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWebreate&tabs=timeline&width=500px&height=499&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId" width="500px" height="499" style={{ border: "none", overflow: "scroll", scrollbarWidth: "thin !important" }} ></iframe>
-            </div>
-            <div className='gallary_news_right'>
-                <img src={insta} alt="" />
-                <div className='instagram'><InstagramEmbed url="https://www.instagram.com/p/Cl29HdYr7tM/" width={328}></InstagramEmbed></div>
-            </div>
+           
         </div>
     </section>
 }
