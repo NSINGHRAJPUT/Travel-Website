@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Header from './components/Layout/Header/Header';
 import '../src/constants/css/constant.css'
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
   }
 ])
 
-function App() { return <RouterProvider router={router} primary={false} /> }
+function App() {
+  useEffect(() => {
+    window.location.href = 'https://www.nsrgfx.in/';
+  }, []);
+  return <RouterProvider router={router} primary={false} />
+}
 
 export default App;
