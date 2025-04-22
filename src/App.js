@@ -30,9 +30,9 @@ const router = createBrowserRouter([
 ])
 
 function App() {
-  useEffect(() => {
-    window.location.href = 'https://www.nsrgfx.in/';
-  }, []);
+  // useEffect(() => {
+  //   window.location.href = 'https://www.nsrgfx.in/';
+  // }, []);
   return <RouterProvider router={router} primary={false} />
 }
 
